@@ -1,0 +1,30 @@
+{
+  "name": "node-kafka",
+  "version": "1.0.0",
+  "description": "Learn kafka's concepts and write a dummy test app on node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imox2/kafka-node.git"
+  },
+  "keywords": [
+    "kafka",
+    "node"
+  ],
+  "author": "imox2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imox2/kafka-node/issues"
+  },
+  "homepage": "https://github.com/imox2/kafka-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
